@@ -1,0 +1,10 @@
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore WordPress specific files
+README.txt

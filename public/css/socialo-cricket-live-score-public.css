@@ -1,0 +1,166 @@
+/**
+ * All of the CSS for the Socialo Cricket Live Score plugin frontend.
+ * This file contains styles for the public-facing functionality.
+ */
+
+/* Resetting default styles for some elements within the container */
+.socialoCricketLiveScoreContainer, span, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.socialoCricketLiveScoreContainer .noMatchAvailable{
+    display: none;
+}
+.socialoCricketLiveScoreInfoBox {
+    padding: 15px;
+    background-color: #e5e5e5;
+    text-align: center;
+    max-width: 330px;
+    margin: 5px auto;
+}
+
+.socialoCricketLiveScoreInfoBox img{
+    width: 60px;
+}
+
+/* Main container for the cricket live score */
+.socialoCricketLiveScore {
+    max-width: 330px;
+    height: 240px;
+    flex-shrink: 0;
+    background: #F1F2F2;
+    display: none;
+}
+
+/* Centering elements using flex */
+.socialoCricketLiveScore .flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for pagination bullet */
+.socialoCricketLiveScore .paginationBullet {
+    background-color: transparent;
+    border: 0.2px solid black;
+    height: 7px;
+    width: 7px;
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+    margin: 0 3px 0 3px;
+    cursor: pointer;
+}
+
+/* Styles for active pagination bullet */
+.socialoCricketLiveScore .paginationActive {
+    background-color: #768396;
+    border: 0.2px solid #768396;
+    opacity: 1;
+}
+
+/* Styles for the pagination container */
+.socialoCricketLiveScore .swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: 193px;
+    left: 0;
+    width: 100%;
+}
+
+/* Styles for the live score box */
+.socialoCricketLiveScore .liveScoreBox {
+    max-width: 310px;
+    height: 203px;
+    border-radius: 10px;
+    background: #FFF;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styles for the title text in the live score box */
+.socialoCricketLiveScore .titleText {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+/* Styles for the date text in the live score box */
+.socialoCricketLiveScore .dateText {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* Styles for the team box */
+.socialoCricketLiveScore .teamBox {
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+/* Styles for the team flag */
+.socialoCricketLiveScore .flag {
+    width: 60px;
+    height: 34px;
+}
+
+/* Styles for the team name in the live score box */
+.socialoCricketLiveScore .teamName {
+    color: #2D2D2D;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/* Styles for the score in the live score box */
+.socialoCricketLiveScore .score {
+    color: #2D2D2D;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+/* Styles for the active score in the live score box */
+.socialoCricketLiveScore .scoreActive {
+    font-weight: 600;
+}
+
+/* Styles for the 'vs' text in the live score box */
+.socialoCricketLiveScore .vs {
+    color: #2D2D2D;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+/* Styles for the divider line in the live score box */
+.socialoCricketLiveScore .divider {
+    width: 90%;
+    height: 0.5px;
+    border: 0;
+    border-radius: 3px;
+    background: #808080;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Styles for the status text in the live score box */
+.socialoCricketLiveScore .statusText {
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+}
