@@ -13,7 +13,7 @@
  * @package           Socialo_Cricket_Live_Score
  *
  * @wordpress-plugin
- * Plugin Name:       Cricket Live Score
+ * Plugin Name:       Socialo Cricket Live Score
  * Plugin URI:        https://socialo.tech
  * Description:       Display real-time cricket match scores on your WordPress site using the SportMonks API. Engage your audience with live updates and team details in an elegant UI.
  * Version:           1.0.0

@@ -5,6 +5,3 @@
 # Ignore system files
 .DS_Store
 Thumbs.db
-
-# Ignore WordPress specific files
-README.txt

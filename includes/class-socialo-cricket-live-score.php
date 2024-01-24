@@ -102,6 +102,7 @@ class Socialo_Cricket_Live_Score
      *
      * - Socialo_Cricket_Live_Score_Loader. Orchestrates the hooks of the plugin.
      * - Socialo_Cricket_Live_Score_i18n. Defines internationalization functionality.
+     * - Socialo_Cricket_Live_Score_Widget. Defines plugin widget functionality.
      * - Socialo_Cricket_Live_Score_Admin. Defines all hooks for the admin area.
      * - Socialo_Cricket_Live_Score_Public. Defines all hooks for the public side of the site.
      *
